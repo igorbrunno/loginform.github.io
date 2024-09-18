@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body{
+    background: radial-gradient(circle at 85.36% 111.24%, #486ee5 0, #486ee5 50%, #486ee5 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    height: 100vh;            /* Altura da tela inteira */
+}
+
+fieldset{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+.div-inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    margin: 50px;
+}
+
+a{
+    font-size: 17px;
+    color:rgb(0, 153, 255)
+    
+}
+
+.div-inputs input{
+    width: 320px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.legend-form-div legend{
+    font-size: 36px;
+    font-family: 
+}
+
+fieldset button{
+    width: 320px;
+    height: 49px;
+    background: radial-gradient(circle at 85.36% 111.24%, #486ee5 0, #486ee5 50%, #486ee5 100%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+fieldset button:hover{
+    color: white;
+    background: #3a4b80;
+}
+
+.signup-div{
+    padding: 30px;
+
+}
